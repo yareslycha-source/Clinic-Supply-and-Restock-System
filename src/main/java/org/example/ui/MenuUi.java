@@ -80,7 +80,6 @@ public class MenuUi {
             return;
         }
 
-        // Formatted console table using printf
         System.out.printf("+-----+----------------------+------------------+----------+------------+\n");
         System.out.printf("| ID  | Item Name            | Category         | Quantity | Price      |\n");
         System.out.printf("+-----+----------------------+------------------+----------+------------+\n");
