@@ -1,5 +1,6 @@
 package org.example;
 
+<<<<<<< HEAD
 import org.example.ui.AdminMenu;
 import java.util.Scanner;
 
@@ -47,5 +48,13 @@ public class Main {
             }
         }
         scanner.close();
+=======
+import org.example.ui.MenuUi;
+
+public class Main {
+    public static void main(String[] args) {
+        MenuUi menuUi = new MenuUi();
+        menuUi.start();
+>>>>>>> 22f0f489ecbc58252be95d9653cfafbdda6b0698
     }
 }

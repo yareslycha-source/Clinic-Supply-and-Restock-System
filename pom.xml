@@ -5,23 +5,37 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>deliverable_7</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+=======
+    <artifactId>clinic-supply-system</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+>>>>>>> 22f0f489ecbc58252be95d9653cfafbdda6b0698
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
+<<<<<<< HEAD
         <!-- SQLite JDBC -->
+=======
+        <!-- SQLite JDBC Driver -->
+>>>>>>> 22f0f489ecbc58252be95d9653cfafbdda6b0698
         <dependency>
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
             <version>3.45.1.0</version>
         </dependency>
 
+<<<<<<< HEAD
         <!-- SLF4J API -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -30,10 +44,17 @@
         </dependency>
 
         <!-- SLF4J Simple Logger Binding -->
+=======
+        <!-- SLF4J Simple Logger (Suppresses console warning) -->
+>>>>>>> 22f0f489ecbc58252be95d9653cfafbdda6b0698
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.36</version>
         </dependency>
     </dependencies>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 22f0f489ecbc58252be95d9653cfafbdda6b0698
 </project>
